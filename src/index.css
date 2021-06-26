@@ -18,7 +18,7 @@ body {
 main {
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.35)
   );
   display: flex;
@@ -188,11 +188,20 @@ main {
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .searchbox .searchbar {
-    width: 440px;
+    width: 400px;
   }
   .searchbox h1 {
-    font-size: 60px;
+    font-size: 55px;
+  }
+
+  .hint .searchbtn .btn1,
+  .hint .searchbtn .btn {
+    font-size: 13px;
+  }
+
+  .hint .searchhint {
+    font-size: 12.5px;
   }
 }
