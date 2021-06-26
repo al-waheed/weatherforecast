@@ -189,19 +189,22 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+  main {
+    min-height: 100vh;
+  }
   .searchbox .searchbar {
-    width: 400px;
+    width: 395px;
   }
   .searchbox h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
 
   .hint .searchbtn .btn1,
   .hint .searchbtn .btn {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hint .searchhint {
-    font-size: 12.5px;
+    font-size: 11.5px;
   }
 }
